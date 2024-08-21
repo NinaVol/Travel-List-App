@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Travel Planner App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+The Travel Planner App is designed to help users explore and organize their dream destinations. Featuring a carousel of beautiful and inspiring locations and a customizable list of must-visit places, this app is the perfect tool for planning your next adventure.
 
-In the project directory, you can run:
+## 
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Carousel Viewer:
+Browse through a collection of stunning images and descriptions of various destinations. Users can learn more about each place and see additional details by clicking the "show more" button.
+### Carousel Viewer
+![Carousel Viewer](./screenshots/Carousel.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Must-Visit List:
+This section allows users to manage a list of their selected destinations. Places can be removed from the list if the user decides they are no longer interested, providing a personalized planning experience.
+### Must-Visit Viewer
+![Must-Visit Viewer](./screenshots/List.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Components
 
-### `npm run build`
+### Carousel:
+Allows users to navigate through different places with options to see the previous or next place. Each place displays an image, a short description that can be expanded, and source information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### MustVisit:
+Displays a list of places the user is interested in visiting. Each list item includes options to remove the place from the list, aiding in refining the travel plan.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to Use
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Navigating the Carousel:
 
-### `npm run eject`
+1. Click "Previous" or "Next" to view different locations.
+2. Expand the description of each location by clicking "show more" or hide it with "show less".
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Managing the Must-Visit List:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Review the places you have chosen.
+2. Click "Remove" on any place you decide not to visit to keep your list focused and up-to-date.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To get started with the Travel Planner App, clone this repository and run the following commands: 
+npm install
+npm start
 
-## Learn More
+This will install all required dependencies and start the app in your default web browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Technologies Used
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+React.js
+CSS
+HTML
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
