@@ -11,12 +11,12 @@ The Travel Planner App is designed to help users explore and organize their drea
 ### Carousel Viewer:
 Browse through a collection of stunning images and descriptions of various destinations. Users can learn more about each place and see additional details by clicking the "show more" button.
 ### Carousel Viewer
-![Carousel Viewer](./screenshots/Carousel.png)
+![Carousel Viewer](screenshots/Carousel.jpg)
 
 ### Must-Visit List:
 This section allows users to manage a list of their selected destinations. Places can be removed from the list if the user decides they are no longer interested, providing a personalized planning experience.
 ### Must-Visit Viewer
-![Must-Visit Viewer](./screenshots/List.png)
+![Must-Visit Viewer](screenshots/List.jpg)
 
 
 ## Components
